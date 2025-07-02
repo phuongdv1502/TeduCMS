@@ -12,6 +12,9 @@ namespace TeduBlog.Data
         {
         }
 
+        /// <summary>
+        /// Bảng người dùng
+        /// </summary>
         public DbSet<Post> Posts { get; set; }
         public DbSet<PostCategory> PostCategories { get; set; }
         public DbSet<PostTag> PostTags { get; set; }
