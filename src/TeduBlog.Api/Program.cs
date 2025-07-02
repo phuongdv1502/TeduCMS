@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("DefaultConnection");
-string a = connectionString;
 // Add services to the container.
 
 //Config DB Context and ASP.NET Core Identity
