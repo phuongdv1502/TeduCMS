@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using TeduBlog.Core.Domain.Helper;
-
 namespace TeduBlog.Core.Domain.Content
 {
     [Table("Posts")]
